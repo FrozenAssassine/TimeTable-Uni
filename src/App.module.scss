@@ -1,0 +1,11 @@
+.centeredTT {
+  align-items: flex-start;
+  justify-content: flex-start; //horizontally!
+  display: flex;
+  height: 100%;
+  width: 100%;
+
+  @media (min-width: 768px) {
+    justify-content: center; //horizontally!
+  }
+}

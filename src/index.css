@@ -1,0 +1,33 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  background-color: #181818;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  overflow: hidden;
+
+  --color-highlighted-weekday: rgb(255, 0, 255);
+  --color-highlighted-houritem: rgb(0,100,255, 0.5);
+}
+
+
+body{
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+#root{
+  height: 100%;
+  width: 100%;
+  overflow: scroll;
+}

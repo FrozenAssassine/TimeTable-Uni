@@ -1,0 +1,26 @@
+.dayRenderer {
+  width: 90%;
+}
+
+.headline {
+  font-size: 18px;
+  padding-bottom: 5px;
+  text-align: center;
+  color: gray;
+  border: 1px solid white;
+
+  @media (max-width: 768px) {
+    font-size: 14px;
+  }
+}
+
+.items {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.highlightedHeadline {
+  color: var(--color-highlighted-weekday);
+}

@@ -1,0 +1,39 @@
+.timeTable {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  height: 100%;
+
+  @media (max-width: 1024px) {
+    width: 90%;
+  }
+
+  @media (max-width: 768px) {
+    width: 95%;
+    overflow-x: auto;
+  }
+}
+
+.weekDays {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+
+  @media (max-width: 1024px) {
+    width: 95%;
+  }
+  @media (max-width: 768px) {
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 768px) {
+  .timeTable {
+    -webkit-overflow-scrolling: touch;
+    padding-left: 0.5rem;
+  }
+}

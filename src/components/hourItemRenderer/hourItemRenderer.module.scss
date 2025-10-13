@@ -1,0 +1,44 @@
+.hourItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+
+  height: 120px;
+  width: 100%;
+  font-size: 1em;
+  border: 1px solid white;
+
+  @media (max-width: 1224px) {
+    font-size: 0.9em;
+  }
+  @media (max-width: 768px) {
+    font-size: 0.8em;
+  }
+}
+
+.optional {
+  color: gray;
+}
+
+.time {
+  text-align: center;
+  font-size: 1.4em;
+}
+
+.headline {
+  font-size: 1.1em;
+  text-align: center;
+}
+
+.kind {
+  font-size: 1.1em;
+}
+
+.room {
+  font-size: 1.2em;
+}
+
+.highlighted {
+  background-color: var(--color-highlighted-houritem);
+}
