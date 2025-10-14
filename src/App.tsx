@@ -182,8 +182,10 @@ const timeItems: TimePlanItem[] = [
 
 function App() {
   return (
-    <div className={styles.centeredTT}>
-      <TimeTable timeItems={timeItems} days={days} />
+    <div className={styles.higherContent}>
+      <div className={styles.centeredTT}>
+        <TimeTable timeItems={timeItems} days={days} />
+      </div>
     </div>
   );
 }

@@ -4,7 +4,6 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  height: 100%;
 
   @media (max-height: 800px) {
     margin-top: 10px;
@@ -17,7 +16,7 @@
 
   @media (max-width: 768px) {
     width: 95%;
-    overflow-x: auto;
+    overflow-x: auto; //horizontal
   }
 }
 

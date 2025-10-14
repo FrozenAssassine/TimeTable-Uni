@@ -1,3 +1,9 @@
+.higherContent {
+  height: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .centeredTT {
   align-items: flex-start;
   justify-content: flex-start; //horizontally!
@@ -7,5 +13,6 @@
 
   @media (min-width: 768px) {
     justify-content: center; //horizontally!
+    align-items: center;
   }
 }
