@@ -58,6 +58,7 @@ const days: DayItem[] = [
         kind: "Übung",
         teacher: "",
         room: "D15.0.01",
+        optional: true,
       },
       null,
       null,
@@ -83,7 +84,6 @@ const days: DayItem[] = [
         kind: "Praktikum",
         teacher: "",
         room: "A20.0.07",
-        optional: true,
       },
       {
         headline: "Programmieren",
@@ -110,12 +110,14 @@ const days: DayItem[] = [
         kind: "Praktikum",
         teacher: "",
         room: "A20.1.08/09",
+        optional: true,
       },
       {
         headline: "Praktische Informatik",
         kind: "Praktikum",
         teacher: "",
         room: "A20.0.08/09",
+        optional: true,
       },
       {
         headline: "Praktische Informatik",
@@ -146,6 +148,7 @@ const days: DayItem[] = [
         kind: "Übung",
         teacher: "",
         room: "A20.2.09/10",
+        optional: true,
       },
       {
         headline: "Technische Informatik",
@@ -154,7 +157,7 @@ const days: DayItem[] = [
         room: "A20.2.09/10",
       },
       {
-        headline: "Technische Informatik",
+        headline: "Praktische Informatik",
         kind: "Praktikum",
         teacher: "",
         room: "A20.0.09",
@@ -164,6 +167,7 @@ const days: DayItem[] = [
         kind: "Übung",
         teacher: "",
         room: "A20.2.09/10",
+        optional: true,
       },
       null,
       null,
