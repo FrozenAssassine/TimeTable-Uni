@@ -155,6 +155,7 @@ const days: DayItem[] = [
         kind: "Übung",
         teacher: "",
         room: "A20.2.09/10",
+        optional: true,
       },
       {
         headline: "Praktische Informatik",
