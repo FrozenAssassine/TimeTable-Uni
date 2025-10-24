@@ -162,6 +162,7 @@ const days: DayItem[] = [
         kind: "Praktikum",
         teacher: "",
         room: "A20.0.09",
+        optional: true,
       },
       {
         headline: "Technische Informatik",
