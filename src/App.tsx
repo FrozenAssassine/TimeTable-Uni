@@ -57,7 +57,7 @@ const days: DayItem[] = [
         headline: "Theoretische Informatik",
         kind: "Übung",
         teacher: "",
-        room: "D15.0.01",
+        room: "A21.0.03",
         optional: true,
       },
       null,
@@ -72,6 +72,7 @@ const days: DayItem[] = [
         kind: "Vorlesung",
         teacher: "",
         room: "A20.1.36",
+        optional: true,
       },
       {
         headline: "Programmieren",
