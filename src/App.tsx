@@ -136,7 +136,7 @@ const days: DayItem[] = [
         headline: "Praktische Informatik",
         kind: "Praktikum",
         teacher: "",
-        room: "A21.0.01",
+        room: "A20.1.08",
       },
       null,
       null,
